@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Will-Boot 2026 | Sinais Aviator 96% IA | 8 Casas Angola</title>
+    <meta name="description" content="Sinais Aviator inteligentes 96% para Primeira Bet, BantuBet, Golden Bet, 888Bet, Elephant Bet Angola">
+    <meta name="theme-color" content="#1a0033">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- HEADER RESPONSIVO -->
+        <header class="header">
+            <div class="logo">
+                <h1>🎯 WILL-BOOT 2026</h1>
+                <p>Sinais IA 96% • 8 Casas Angola</p>
+            </div>
+            <div class="stats" id="stats"></div>
+        </header>
+
+        <!-- MAIN RESPONSIVO -->
+        <main class="main">
+            <!-- HISTÓRICO MOBILE FIRST -->
+            <div class="historico-panel">
+                <div class="panel-header">
+                    <h2>📊 Histórico IA</h2>
+                    <div class="refresh" id="refresh-btn">🔄</div>
+                </div>
+                <div class="historico-list" id="historico-list">
+                    <div class="loading">🧠 Carregando...</div>
+                </div>
+            </div>
+
+            <!-- RIGHT PANEL MOBILE -->
+            <div class="right-panel">
+                <div class="predicao-card">
+                    <div class="predicao-header">
+                        <h3>🧠 PRÓXIMO SINAL</h3>
+                        <div class="ia-stats">
+                            <span>📉 <span id="media-recente">--x</span></span>
+                            <span id="tendencia">--</span>
+                        </div>
+                    </div>
+                    <div class="predicao-main">
+                        <div class="predicao-text" id="predicao-text">CARREGANDO...</div>
+                        <div class="confidence" id="confidence">--%</div>
+                        <div class="confidence-bar">
+                            <div class="bar-fill" id="confidence-bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- VIP MOBILE -->
+                <div class="vip-card">
+                    <div class="vip-price">10.000<span>KWZ/mês</span></div>
+                    <button class="vip-button" onclick="buyVIP()">💎 COMPRAR AGORA</button>
+                    <div class="whatsapp-info">📱 942 051 820</div>
+                </div>
+            </div>
+        </main>
+
+        <!-- CASAS RESPONSIVO GRID -->
+        <section class="casas-section">
+            <h3>🏛️ 8 CASAS AVIATOR AO VIVO</h3>
+            <div class="casas-grid" id="casas-grid"></div>
+        </section>
+
+        <!-- FOOTER MOBILE -->
+        <footer class="footer-cta">
+            <p>⚠️ 18+ | Jogo Responsável | Sinais Estatísticos</p>
+        </footer>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
